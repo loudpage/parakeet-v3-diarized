@@ -21,8 +21,8 @@ A simple FastAPI server that provides an OpenAI Whisper API-compatible endpoint 
 
 1. Clone this repository:
    ```bash
-   git clone <your-repository-url>
-   cd parakeet-whisper-api
+   git clone https://github.com/jfgonsalves/parakeet-diarized
+   cd parakeet-diarized
    ```
 
 2. Create and activate a virtual environment:
@@ -47,12 +47,12 @@ A simple FastAPI server that provides an OpenAI Whisper API-compatible endpoint 
    ```bash
    ./run.sh --hf-token "your_token_here"
    ```
-   
+
    **Without speaker diarization:**
    ```bash
    ./run.sh
    ```
-   
+
    **Other options:**
    ```bash
    ./run.sh --help  # See all available options
