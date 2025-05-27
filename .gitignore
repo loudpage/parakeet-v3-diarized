@@ -1,0 +1,52 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Rope project settings
+.ropeproject
+
+# Temporary directories
+/tmp/
+temp/
+temporary/
+
+# Model cache and downloads
+.cache/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# HuggingFace cache
+.huggingface/
+
+# NeMo cache
+.nemo/
+
+# Pyannote cache
+.pyannote/
+
+# Log files
+*.log
+logs/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Pytest
+.pytest_cache/
